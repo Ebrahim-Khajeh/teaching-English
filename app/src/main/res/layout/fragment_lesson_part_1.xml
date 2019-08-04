@@ -1,0 +1,15 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ebiii.comeback.Lesson_part_1">
+
+
+    <ListView
+        android:divider="#00ff0000"
+        android:dividerHeight="0dp"
+        android:paddingRight="2dp"
+        android:id="@+id/listviewlesson1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</FrameLayout>

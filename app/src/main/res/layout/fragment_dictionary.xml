@@ -1,0 +1,113 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ebiii.comeback.DictionaryFragment">
+
+
+    <RelativeLayout
+        android:id="@+id/lp"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+            android:background="@drawable/forground_coustom_adapter"
+            android:layout_margin="4dp"
+            android:id="@+id/li1"
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnSearch"
+                android:textSize="14sp"
+                style="@style/Base.Widget.AppCompat.Button.Colored"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="جستجو" />
+
+            <EditText
+                android:id="@+id/editTextSearch"
+                android:gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:maxLength="30"
+                android:ems="10"
+                android:paddingLeft="8dp"
+                android:textSize="14sp"
+                android:inputType="textPersonName"
+                android:hint="کلمه خود را به انگلیسی را وارد کنید" />
+            <Button
+                android:id="@+id/clear"
+                android:layout_width="30dp"
+                android:background="@android:drawable/ic_menu_close_clear_cancel"
+                android:layout_height="30dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/li2"
+            android:layout_margin="4dp"
+            android:layout_below="@+id/li1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <RadioGroup
+                android:id="@+id/group"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+            <RadioButton
+                android:id="@+id/etp"
+                android:checked="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layoutDirection="rtl"
+                android:text="انگلیسی به فارسی" />
+
+            <RadioButton
+                android:id="@+id/pte"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layoutDirection="rtl"
+                android:text="فارسی به انگلیسی" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+            android:background="@drawable/forground_coustom_adapter"
+            android:layout_below="@+id/li1"
+            android:id="@+id/li3"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/txtResults"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:layout_centerHorizontal="true"
+                android:gravity="right"
+                android:paddingTop="5dp"
+                android:textColor="#0e1a87"
+                android:textSize="15sp" />
+
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+</FrameLayout>

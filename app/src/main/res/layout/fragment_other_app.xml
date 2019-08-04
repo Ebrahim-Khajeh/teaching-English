@@ -1,0 +1,287 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ebiii.comeback.OtherAppFragment">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginRight="3dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv1"
+                android:layout_width="match_parent"
+                android:layout_height="130dp">
+                <ImageView
+                    android:layout_width="130dp"
+                    android:background="@drawable/aks"
+                    android:id="@+id/img1"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="عکس نوشته ساز حرفه ای"
+                    android:gravity="right"
+                    android:id="@+id/txt1"
+                    android:layout_marginRight="5dp"
+                    android:textSize="16dp"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_marginRight="5dp"
+                    android:layout_width="match_parent"
+                    android:id="@+id/txt11"
+                    android:textSize="12dp"
+                    android:textColor="#0d0e61"
+                    android:layout_marginLeft="150dp"
+                    android:text="برنامه عکس نوشته ساز برنامه ای بسیار حرفه ای در زمینه ساخت عکس نوشته با کلی امکانات همراه با فیلترهای اینستاگرام است"
+                    android:layout_marginTop="50dp"
+                    android:layout_height="wrap_content" />
+
+            </android.support.v7.widget.CardView>
+        </RelativeLayout>
+
+        <!--tttttttttttttttttttttttttttttt-->
+
+        <RelativeLayout
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv2"
+                android:layout_width="match_parent"
+                android:layout_height="130dp">
+                <ImageView
+                    android:layout_width="130dp"
+                    android:background="@drawable/aksinsta"
+                    android:id="@+id/img2"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="انفالویاب اینستاگرام پیشرفته"
+                    android:gravity="right"
+                    android:id="@+id/txt2"
+                    android:layout_marginRight="5dp"
+                    android:textSize="16dp"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:id="@+id/txt22"
+                    android:textSize="12dp"
+                    android:layout_marginRight="5dp"
+                    android:textColor="#0d0e61"
+                    android:layout_marginLeft="150dp"
+                    android:text="ابزاری مهم برای مدیریت فالوئر ها و فالوشده های اینستاگرام شما همراه با امکاناتی از قبیل ..."
+                    android:layout_marginTop="50dp"
+                    android:layout_height="wrap_content" />
+
+            </android.support.v7.widget.CardView>
+        </RelativeLayout>
+
+        <!--ttttttttttttttttttttttttttt-->
+
+        <RelativeLayout
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv3"
+                android:layout_width="match_parent"
+                android:layout_height="130dp">
+                <ImageView
+                    android:layout_width="130dp"
+                    android:background="@drawable/akshava"
+                    android:id="@+id/img3"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="هواشناسی پیشرفته و هوشمند"
+                    android:gravity="right"
+                    android:id="@+id/txt3"
+                    android:layout_marginRight="5dp"
+                    android:textSize="14dp"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:id="@+id/txt33"
+                    android:layout_marginRight="5dp"
+                    android:textSize="12dp"
+                    android:textColor="#0d0e61"
+                    android:layout_marginLeft="150dp"
+                    android:text="برنامه ای با کیفیت و کم حجم مخصوص پیش بینی آب و هوا در سفر!"
+                    android:layout_marginTop="50dp"
+                    android:layout_height="wrap_content" />
+
+            </android.support.v7.widget.CardView>
+        </RelativeLayout>
+
+        <!--tttttttttttttttttttttttttt-->
+
+        <RelativeLayout
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv4"
+                android:layout_width="match_parent"
+                android:layout_height="130dp">
+                <ImageView
+                    android:layout_width="130dp"
+                    android:background="@drawable/aksphotoshap"
+                    android:id="@+id/img4"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="ویرایشگر عکس (حرفه ای)"
+                    android:gravity="right"
+                    android:id="@+id/txt4"
+                    android:layout_marginRight="5dp"
+                    android:textSize="16dp"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:id="@+id/txt44"
+                    android:layout_marginRight="5dp"
+                    android:textSize="12dp"
+                    android:textColor="#0d0e61"
+                    android:layout_marginLeft="150dp"
+                    android:text="با این برنامه می توانید خیلی راحت تصاویر مورد علاقه خود را بصورت حرفه ای ویرایش کنید و هر تغییراتی را که دوست دارید اعمال کنید."
+                    android:layout_marginTop="50dp"
+                    android:layout_height="wrap_content" />
+
+            </android.support.v7.widget.CardView>
+        </RelativeLayout>
+        <!--tttttttttttttttttttttttttttt-->
+        <RelativeLayout
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv5"
+                android:layout_width="match_parent"
+                android:layout_height="130dp">
+                <ImageView
+                    android:layout_width="130dp"
+                    android:background="@drawable/aksfirefox"
+                    android:id="@+id/img5"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="مرورگر دانا"
+                    android:gravity="right"
+                    android:id="@+id/txt5"
+                    android:layout_marginRight="5dp"
+                    android:textSize="16dp"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:id="@+id/txt55"
+                    android:layout_marginRight="5dp"
+                    android:textSize="12dp"
+                    android:textColor="#0d0e61"
+                    android:layout_marginLeft="150dp"
+                    android:text="مرورگر دانا مرورگری بسیار کم حجم و دارای امکانات متنوعی هستش که میتوانید با تنظیم کردن مرورگر از وب گردی خود لذت ببرید ویژگی هایی که این مرورگر دارد عبارتند از ..."
+                    android:layout_marginTop="50dp"
+                    android:layout_height="wrap_content" />
+
+            </android.support.v7.widget.CardView>
+        </RelativeLayout>
+        <!--tttttttttttttttttttttttttttt-->
+        <RelativeLayout
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv6"
+                android:layout_width="match_parent"
+                android:layout_height="130dp">
+                <ImageView
+                    android:layout_width="130dp"
+                    android:background="@drawable/akstaghvim"
+                    android:id="@+id/img6"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="تقویم 97 + اذان گو"
+                    android:gravity="right"
+                    android:id="@+id/txt6"
+                    android:layout_marginRight="5dp"
+                    android:textSize="16dp"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:id="@+id/txt66"
+                    android:layout_marginRight="5dp"
+                    android:textSize="12dp"
+                    android:textColor="#0d0e61"
+                    android:layout_marginLeft="150dp"
+                    android:text="تقویم 1397 به همراه جامع ترین رویدادهای شمسی، میلادی و قمری کم حجم همراه با رابط کاربری جذاب و روان و..."
+                    android:layout_marginTop="50dp"
+                    android:layout_height="wrap_content" />
+
+            </android.support.v7.widget.CardView>
+        </RelativeLayout>
+        <!--tttttttttttttttttttttttttttt-->
+        <RelativeLayout
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv7"
+                android:layout_width="match_parent"
+                android:layout_height="130dp">
+                <ImageView
+                    android:layout_width="130dp"
+                    android:background="@drawable/akskifmadrak"
+                    android:id="@+id/img7"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="کیف مدارک + مدرک ساز"
+                    android:gravity="right"
+                    android:id="@+id/txt7"
+                    android:layout_marginRight="5dp"
+                    android:textSize="16dp"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:id="@+id/txt77"
+                    android:layout_marginRight="5dp"
+                    android:textSize="12dp"
+                    android:textColor="#0d0e61"
+                    android:layout_marginLeft="150dp"
+                    android:text="شما برای نگه داشتن پسوردهاتون و شماره کارتهاتون چیکار می کنید؟"
+                    android:layout_marginTop="50dp"
+                    android:layout_height="wrap_content" />
+
+            </android.support.v7.widget.CardView>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
+</FrameLayout>

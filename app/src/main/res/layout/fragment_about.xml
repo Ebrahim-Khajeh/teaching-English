@@ -1,0 +1,26 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30dp"
+    tools:context="com.ebiii.comeback.AboutFragment">
+
+    <android.support.v7.widget.CardView
+       android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="17sp"
+            android:paddingRight="6dp"
+            android:id="@+id/txtabout"
+            android:textColor="#10086c"
+            android:maxLines="20"
+            android:maxLength="20000"
+            android:gravity="right|center"
+            android:text="این برنامه بوسیله تیم ComeBack طراحی و پیاده سازی شده است و تمامی حقوق آن متعلق به همین تیم می باشد. در این برنامه ما سعی کردیم با روشی آسان معنای فارسی کلمات زبان انگلیسی را به شما آموزش دهیم علاوه بر داستانهای زیبا و جذاب دیکشنری بسیار قدرتمندی هم در کنار آن قرار دادیم که اگر کلمه ای مشابه با کلمات درون داستان به ذهنتان خطور کرد بتوانید معنای آن را پیدا کنید . در صورت داشتن نظرات برای بهبود برنامه میتوانید با آدرس زیر در ارتباط باشید : openmindd2017@gmail.com "
+            android:layout_height="wrap_content" />
+
+    </android.support.v7.widget.CardView>
+</FrameLayout>
